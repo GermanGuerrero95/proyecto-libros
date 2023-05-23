@@ -1,0 +1,23 @@
+:root {
+  --fuentePrincipal:'Raleway', sans-serif;
+  --fuenteHeadings:'Lato', sans-serif;
+  --primario:#3D4A73;
+  --secundario:#F29C6B;
+  --tercer:#F26D6D;
+}
+
+html {
+    font-size: 62.5%; 
+    box-sizing: border-box;
+    font-family: var(--fuentePrincipal);
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;  
+}
+
+
+
